@@ -37,19 +37,25 @@
                     android:id="@+id/imgBtIntent3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Japonés" />
 
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Ingles" />
 
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Chino" />
 
             </TableRow>
 
@@ -62,19 +68,25 @@
                     android:id="@+id/button13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Alemán" />
 
                 <Button
                     android:id="@+id/button12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Francés" />
 
                 <Button
                     android:id="@+id/button11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Ruso" />
             </TableRow>
 
             <TableRow
@@ -86,19 +98,25 @@
                     android:id="@+id/button14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Italiano" />
 
                 <Button
                     android:id="@+id/button16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Portugués" />
 
                 <Button
                     android:id="@+id/button15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:fontFamily="monospace"
+                    android:text="Saudí" />
             </TableRow>
 
         </TableLayout>
@@ -110,8 +128,23 @@
         android:layout_height="234dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="2dp"
+            android:fontFamily="monospace"
+            android:text="Selecciona el curso de lo que quieras aprender"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -129,19 +162,24 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="184dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="160dp"
+            android:fontFamily="monospace"
             android:text="Cursos"
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btBack1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="31dp"
-            android:layout_marginTop="17dp"
-            android:text="Button"
+            android:layout_width="84dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/design_default_color_error"
+            android:fontFamily="monospace"
+            android:text="Atrás"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
