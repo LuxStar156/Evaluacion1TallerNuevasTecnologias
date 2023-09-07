@@ -6,87 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
-  <androidx.constraintlayout.widget.ConstraintLayout
-      android:layout_width="391dp"
-      android:layout_height="303dp"
-      tools:layout_editor_absoluteX="1dp"
-      tools:layout_editor_absoluteY="481dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="390dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
-
-  <androidx.constraintlayout.widget.ConstraintLayout
-      android:layout_width="385dp"
-      android:layout_height="289dp"
-      tools:layout_editor_absoluteX="1dp"
-      tools:layout_editor_absoluteY="191dp">
-
-  </androidx.constraintlayout.widget.ConstraintLayout>
-
-  <androidx.constraintlayout.widget.ConstraintLayout
-      android:layout_width="391dp"
-      android:layout_height="117dp"
-      tools:layout_editor_absoluteX="1dp"
-      tools:layout_editor_absoluteY="73dp">
-
-  </androidx.constraintlayout.widget.ConstraintLayout>
-
-  <androidx.constraintlayout.widget.ConstraintLayout
-      android:layout_width="391dp"
-      android:layout_height="71dp"
-      tools:layout_editor_absoluteX="1dp"
-      tools:layout_editor_absoluteY="1dp">
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="50dp"
-        android:layout_height="49dp"
-        android:text="<"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="18dp" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="36dp" />
-  </androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
-  <androidx.constraintlayout.widget.Guideline
-      android:id="@+id/guideline9"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      app:layout_constraintGuide_begin="20dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="375dp" />
 
-  <androidx.constraintlayout.widget.Guideline
-      android:id="@+id/guideline10"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      app:layout_constraintGuide_begin="377dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
-  <androidx.constraintlayout.widget.Guideline
-      android:id="@+id/guideline11"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:orientation="horizontal"
-      app:layout_constraintGuide_begin="768dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="769dp" />
 
-  <androidx.constraintlayout.widget.Guideline
-      android:id="@+id/guideline12"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:orientation="horizontal"
-      app:layout_constraintGuide_begin="20dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout10"
+        android:layout_width="393dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="393dp"
+        android:layout_height="311dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout10">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout9"
+        android:layout_width="391dp"
+        android:layout_height="255dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-<Button
-android:id="@+id/button3"
-android:layout_width="36dp"
-android:layout_height="40dp"
-android:text="<"
-tools:layout_editor_absoluteX="29dp"
-tools:layout_editor_absoluteY="18dp" />
