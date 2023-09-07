@@ -34,7 +34,7 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/imgBtIntent3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Button" />
@@ -129,10 +129,20 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="34dp"
-            android:layout_marginEnd="168dp"
-            android:text="TextView"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="184dp"
+            android:text="Cursos"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btBack1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="17dp"
+            android:text="Button"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
